@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>My Portfolio</h1>
+        </div>
+        <nav>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section active">
+            <div class="container">
+                <h2 class="section-title">My Portfolio</h2>
+                <div class="portfolio-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="videogames">Videogames</button>
+                    <button class="filter-btn" data-filter="websites">Websites</button>
+                    <button class="filter-btn" data-filter="graphic-design">Graphic Design</button>
+                    <button class="filter-btn" data-filter="animation">Animation</button>
+                    <button class="filter-btn" data-filter="ar">Augmented Reality</button>
+                    <button class="filter-btn" data-filter="interactive">Interactive Media</button>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="videogames" data-id="project1">
+                        <div class="portfolio-img">
+                            <img src="Portfolio Cover Photos/cover1.png" class="img-fluid">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>BoKata</h3>
+                            <p>Game</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="websites" data-id="project2">
+                        <div class="portfolio-img">
+                            <img src="Portfolio Cover Photos/cover10.png" class="img-fluid">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Google Interactive</h3>
+                            <p>Website</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="websites" data-id="project3">
+                        <div class="portfolio-img">
+                            <img src="Portfolio Cover Photos/cover11.png" class="img-fluid">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Switch Board</h3>
+                            <p>Website</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="videogames" data-id="project4">
+                        <div class="portfolio-img">
+                            <img src="Portfolio Cover Photos/cover9.png" class="img-fluid">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Moo Deng Manager</h3>
+                            <p>Game</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="graphic-design" data-id="project5">
+                        <div class="portfolio-img">
+                            <img src="Portfolio Cover Photos/cover5.png" class="img-fluid">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>City Scouts Passport</h3>
+                            <p>Typography</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="graphic-design" data-id="project6">
+                        <div class="portfolio-img">
+                            <img src="Portfolio Cover Photos/cover8.png" class="img-fluid">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Email Templates</h3>
+                            <p>UI Design</p>
+                        </div>
+                    </div>
+                    <!-- New Portfolio Items -->
+                    <div class="portfolio-item" data-category="websites" data-id="project7">
+                        <div class="portfolio-img">
+                            <img src="Portfolio Cover Photos/cover13.png" class="img-fluid">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Variable Dimensions</h3>
+                            <p>Website</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="websites" data-id="project9">
+                        <div class="portfolio-img">
+                            <img src="Portfolio Cover Photos/cover14.png" class="img-fluid">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Boolean Truth Table</h3>
+                            <p>Website</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="animation" data-id="project10">
+                        <div class="portfolio-img">
+                            <img src="Portfolio Cover Photos/cover4.png" class="img-fluid">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>The Information Age</h3>
+                            <p>Animation</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="interactive" data-id="project11">
+                        <div class="portfolio-img">
+                            <img src="Portfolio Cover Photos/cover7.png" class="img-fluid">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Audio Visualizer</h3>
+                            <p>Interactive Media</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="animation" data-id="project12">
+                        <div class="portfolio-img">
+                            <img src="Portfolio Cover Photos/cover3.png" class="img-fluid">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Rorschach</h3>
+                            <p>Animation</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="ar" data-id="project13">
+                        <div class="portfolio-img">
+                            <img src="Portfolio Cover Photos/cover6.png" class="img-fluid">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Hollow Knight</h3>
+                            <p>Augmented Reality Filter</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="graphic-design" data-id="project14">
+                        <div class="portfolio-img">
+                            <img src="Portfolio Cover Photos/cover2.png" class="img-fluid">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Boring</h3>
+                            <p>Illustration</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="graphic-design" data-id="project16">
+                        <div class="portfolio-img">
+                            <img src="Portfolio Cover Photos/cover15.png" class="img-fluid">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>About Nothing, Really</h3>
+                            <p>Typography</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="graphic-design" data-id="project17">
+                        <div class="portfolio-img">
+                            <img src="Portfolio Cover Photos/cover16.png" class="img-fluid">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Cooper Family Type Specimen</h3>
+                            <p>Typography</p>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="portfolio-item" data-category="graphic-design" data-id="project15">
+                        <div class="portfolio-img">
+                            <div class="img-placeholder">
+                                <i class="fas fa-font"></i>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Ingredients of Design</h3>
+                            <p>Typography</p>
+                        </div>
+                    </div>
+                    -->
+                    <!--
+                    <div class="portfolio-item" data-category="websites" data-id="project8">
+                        <div class="portfolio-img">
+                            <img src="Portfolio Cover Photos/cover12.png" class="img-fluid">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Variations of a Poster</h3>
+                            <p>Website</p>
+                        </div>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Portfolio Popups -->
+    <div class="portfolio-popup-overlay"></div>
+    
+    <!-- Project 1 Popup -->
+    <div class="portfolio-popup" id="popup-project1">
+        <div class="popup-content">
+            <span class="popup-close"><i class="fas fa-times"></i></span>
+            <div class="popup-header">
+                <h2>BoKata</h2>
+                <p class="project-date">Completed: April 2025</p>
+            </div>
+            <video controls width="100%">
+                <source src="Portfolio Work/bokata.mov" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="popup-details">
+                <div class="tools-used">
+                    <h3>Tools Used</h3>
+                    <ul>
+                        <li><i class="fas fa-gamepad"></i> Unity</li>
+                        <li><i class="fab fa-unity"></i> C#</li>
+                        <li><i class="fas fa-cube"></i> Blender</li>
+                        <li><i class="fas fa-music"></i> FMOD</li>
+                    </ul>
+                </div>
+                <div class="artist-statement">
+                    <h3>Artist Statement</h3>
+                    <p>BoKata is a 3D arcade flying game I made in Unity with a team of people for the Level Up showcase 2025. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Project 2 Popup -->
+    <div class="portfolio-popup" id="popup-project2">
+        <div class="popup-content">
+            <span class="popup-close"><i class="fas fa-times"></i></span>
+            <div class="popup-header">
+                <h2>Google Interactive</h2>
+                <p class="project-date">Completed: September 2024</p>
+            </div>
+            <video controls width="100%">
+                <source src="Portfolio Work/google.mov" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="popup-details">
+                <div class="tools-used">
+                    <h3>Tools Used</h3>
+                    <ul>
+                        <li><i class="fab fa-html5"></i> HTML</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS</li>
+                        <li><i class="fab fa-js"></i> JavaScript</li>
+                    </ul>
+                </div>
+                <div class="artist-statement">
+                    <h3>Artist Statement</h3>
+                    <p>Google Interactive is a silly website I made where the search button is impossible to click because it runs away from your cursor. I made it from scratch in HTML, CSS, and JS.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Project 3 Popup -->
+    <div class="portfolio-popup" id="popup-project3">
+        <div class="popup-content">
+            <span class="popup-close"><i class="fas fa-times"></i></span>
+            <div class="popup-header">
+                <h2>Switch Board</h2>
+                <p class="project-date">Completed: June 2024</p>
+            </div>
+            <video controls width="100%">
+                <source src="Portfolio Work/switches.mov" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="popup-details">
+                <div class="tools-used">
+                    <h3>Tools Used</h3>
+                    <ul>
+                        <li><i class="fab fa-html5"></i> HTML</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS</li>
+                        <li><i class="fab fa-js"></i> JavaScript</li>
+                    </ul>
+                </div>
+                <div class="artist-statement">
+                    <h3>Artist Statement</h3>
+                    <p>Switch Board is an interactive web soundboard of lightswitches. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Project 4 Popup -->
+    <div class="portfolio-popup" id="popup-project4">
+        <div class="popup-content">
+            <span class="popup-close"><i class="fas fa-times"></i></span>
+            <div class="popup-header">
+                <h2>Moo Deng Manager</h2>
+                <p class="project-date">Completed: April 2025</p>
+            </div>
+            <video controls width="100%">
+                <source src="Portfolio Work/moodengNEW.mov" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="popup-details">
+                <div class="tools-used">
+                    <h3>Tools Used</h3>
+                    <ul>
+                        <li><i class="fab fa-html5"></i> HTML</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS</li>
+                        <li><i class="fab fa-js"></i> JavaScript</li>
+                    </ul>
+                </div>
+                <div class="artist-statement">
+                    <h3>Artist Statement</h3>
+                    <p>Moo Deng Manager is a idle clicker game inspired by the viral pygmy hippo. Players manage Moo Deng's social media to make her go viral. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Project 5 Popup -->
+    <div class="portfolio-popup" id="popup-project5">
+        <div class="popup-content">
+            <span class="popup-close"><i class="fas fa-times"></i></span>
+            <div class="popup-header">
+                <h2>City Scouts Passport</h2>
+                <p class="project-date">Ongoing</p>
+            </div>
+            <div class="popup-pdf">
+                <iframe src="Portfolio Work/CSPP2024 copy.pdf" type="application/pdf" width="100%" height="600px"></iframe>
+                <div class="pdf-controls">
+                    <a href="Portfolio Work/CSPP2024 copy.pdf" download class="btn pdf-download"><i class="fas fa-download"></i> Download PDF</a>
+                    <p class="pdf-instructions">Use scroll or arrow keys to navigate through pages</p>
+                </div>
+            </div>
+            <div class="popup-details">
+                <div class="tools-used">
+                    <h3>Tools Used</h3>
+                    <ul>
+                        <li><i class="fab fa-adobe"></i> InDesign</li>
+                        <li><i class="fas fa-vector-square"></i> Illustrator</li>
+                        <li><i class="fas fa-font"></i> Photoshop</li>
+                        <li><i class="fas fa-print"></i> Acrobat Distiller</li>
+                    </ul>
+                </div>
+                <div class="artist-statement">
+                    <h3>Artist Statement</h3>
+                    <p>The City Scouts Passport is a printed booklet for young urban explorers to track their adventures. My design intuitive structure allows campers to document their experiences.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Project 6 Popup -->
+    <div class="portfolio-popup" id="popup-project6">
+        <div class="popup-content">
+            <span class="popup-close"><i class="fas fa-times"></i></span>
+            <div class="popup-header">
+                <h2>Email Templates</h2>
+                <p class="project-date">Completed: February 2019</p>
+            </div>
+            <video controls width="100%">
+                <source src="Portfolio Work/Email Templates.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="popup-details">
+                <div class="tools-used">
+                    <h3>Tools Used</h3>
+                    <ul>
+                        <li><i class="fab fa-adobe"></i> Company Software</li>
+                        <li><i class="fas fa-vector-square"></i> Illustrator</li>
+                    </ul>
+                </div>
+                <div class="artist-statement">
+                    <h3>Artist Statement</h3>
+                    <p>Email Templates is a collection of responsive, cross-client compatible email designs created for marketing campaigns and newsletters. The templates feature modular components that can be mixed and matched while maintaining brand consistency, extensively tested across multiple email clients and devices.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Project 7 Popup -->
+    <!--
+    <div class="portfolio-popup" id="popup-project7">
+        <div class="popup-content">
+            <span class="popup-close"><i class="fas fa-times"></i></span>
+            <div class="popup-header">
+                <h2>Portfolio Site</h2>
+                <p class="project-date">Completed: March 2024</p>
+            </div>
+            <video controls width="100%">
+                <source src="Portfolio Work/variable.mov" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="popup-gallery">
+                <div class="popup-gallery-main">
+                    <img src="https://source.unsplash.com/random/800x600/?portfolio" alt="Portfolio Site Main Image">
+                </div>
+                <div class="popup-gallery-thumbs">
+                    <img src="https://source.unsplash.com/random/800x600/?portfolio" alt="Portfolio Site Thumbnail 1" class="active">
+                    <img src="https://source.unsplash.com/random/800x600/?website" alt="Portfolio Site Thumbnail 2">
+                    <img src="https://source.unsplash.com/random/800x600/?showcase" alt="Portfolio Site Thumbnail 3">
+                </div>
+            </div>
+            <div class="popup-details">
+                <div class="tools-used">
+                    <h3>Tools Used</h3>
+                    <ul>
+                        <li><i class="fab fa-html5"></i> HTML</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS</li>
+                        <li><i class="fab fa-js"></i> JavaScript</li>
+                        <li><i class="fas fa-mobile-alt"></i> Responsive Design</li>
+                    </ul>
+                </div>
+                <div class="artist-statement">
+                    <h3>Artist Statement</h3>
+                    <p>This portfolio site was designed and developed from scratch to showcase my work effectively. I focused on creating a responsive layout with subtle animations that enhance browsing without distracting from content, embodying my design philosophy of functionality and aesthetics working together.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+    
+    <!-- Project 8 Popup -->
+    <!--
+    <div class="portfolio-popup" id="popup-project8">
+        <div class="popup-content">
+            <span class="popup-close"><i class="fas fa-times"></i></span>
+            <div class="popup-header">
+                <h2>Blog Platform</h2>
+                <p class="project-date">Completed: September 2023</p>
+            </div>
+            <div class="popup-gallery">
+                <div class="popup-gallery-main">
+                    <img src="https://source.unsplash.com/random/800x600/?blog" alt="Blog Platform Main Image">
+                </div>
+                <div class="popup-gallery-thumbs">
+                    <img src="https://source.unsplash.com/random/800x600/?blog" alt="Blog Platform Thumbnail 1" class="active">
+                    <img src="https://source.unsplash.com/random/800x600/?writing" alt="Blog Platform Thumbnail 2">
+                    <img src="https://source.unsplash.com/random/800x600/?cms" alt="Blog Platform Thumbnail 3">
+                </div>
+            </div>
+            <div class="popup-details">
+                <div class="tools-used">
+                    <h3>Tools Used</h3>
+                    <ul>
+                        <li><i class="fab fa-react"></i> React</li>
+                        <li><i class="fab fa-node-js"></i> Node.js</li>
+                        <li><i class="fas fa-database"></i> MongoDB</li>
+                        <li><i class="fab fa-aws"></i> AWS</li>
+                    </ul>
+                </div>
+                <div class="artist-statement">
+                    <h3>Artist Statement</h3>
+                    <p>The Blog Platform is a full-stack web application providing content creators with an intuitive publishing system. It features a custom WYSIWYG editor, content scheduling, and SEO tools within a clean design that prioritizes reading experience through thoughtful typography and whitespace.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+    
+    <!-- Project 9 Popup -->
+    <div class="portfolio-popup" id="popup-project9">
+        <div class="popup-content">
+            <span class="popup-close"><i class="fas fa-times"></i></span>
+            <div class="popup-header">
+                <h2>Boolean Truth Table</h2>
+                <p class="project-date">Completed: October 2024</p>
+            </div>
+            <video controls width="100%">
+                <source src="Portfolio Work/boolean.mov" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="popup-details">
+                <div class="tools-used">
+                    <h3>Tools Used</h3>
+                    <ul>
+                        <li><i class="fab fa-html5"></i> HTML</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS</li>
+                        <li><i class="fab fa-js"></i> JavaScript</li>
+                    </ul>
+                </div>
+                <div class="artist-statement">
+                    <h3>Artist Statement</h3>
+                    <p>Boolean Truth Table visualizes logic operations through interactive truth tables, making abstract computer science concepts accessible.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Project 10 Popup -->
+    <div class="portfolio-popup" id="popup-project10">
+        <div class="popup-content">
+            <span class="popup-close"><i class="fas fa-times"></i></span>
+            <div class="popup-header">
+                <h2>The Information Age</h2>
+                <p class="project-date">Completed: January 2024</p>
+            </div>
+            <div class="popup-video">
+                <video controls width="100%">
+                    <source src="Portfolio Work/The Information Age (Backup Sound).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="popup-details">
+                <div class="tools-used">
+                    <h3>Tools Used</h3>
+                    <ul>
+                        <li><i class="fab fa-adobe"></i> Blender</li>
+                        <li><i class="fas fa-paint-brush"></i> Premiere</li>
+                        <li><i class="fas fa-music"></i> Audition</li>
+                    </ul>
+                </div>
+                <div class="artist-statement">
+                    <h3>Artist Statement</h3>
+                    <p>The Information Age is an animated short exploring our relationship with data and technology. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Project 11 Popup -->
+    <div class="portfolio-popup" id="popup-project11">
+        <div class="popup-content">
+            <span class="popup-close"><i class="fas fa-times"></i></span>
+            <div class="popup-header">
+                <h2>Audio Visualizer</h2>
+                <p class="project-date">Completed: October 2023</p>
+            </div>
+            <div class="popup-gallery">
+                <video controls width="100%">
+                    <source src="Portfolio Work/Vibeo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="popup-gallery-thumbs">
+                    <img src="https://source.unsplash.com/random/800x600/?audio" alt="Audio Visualizer Thumbnail 1" class="active">
+                    <img src="https://source.unsplash.com/random/800x600/?soundwave" alt="Audio Visualizer Thumbnail 2">
+                    <img src="https://source.unsplash.com/random/800x600/?music" alt="Audio Visualizer Thumbnail 3">
+                </div>
+            </div>
+            <div class="popup-details">
+                <div class="tools-used">
+                    <h3>Tools Used</h3>
+                    <ul>
+                        <li><i class="fas fa-code"></i> Touch Designer</li>
+                    </ul>
+                </div>
+                <div class="artist-statement">
+                    <h3>Artist Statement</h3>
+                    <p>This visualizer is an experiment. The visuals react in realtime to the sounds that come in. I used a rap song because this configuration is for snares, hi hats, and bass.  </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Project 12 Popup -->
+    <div class="portfolio-popup" id="popup-project12">
+        <div class="popup-content">
+            <span class="popup-close"><i class="fas fa-times"></i></span>
+            <div class="popup-header">
+                <h2>Rorschach</h2>
+                <p class="project-date">Completed: December 2023</p>
+            </div>
+            <div class="popup-video">
+                <video controls width="100%">
+                    <source src="Portfolio Work/Rorschach copy.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="popup-details">
+                <div class="tools-used">
+                    <h3>Tools Used</h3>
+                    <ul>
+                        <li><i class="fab fa-adobe"></i> After Effects</li>
+                        <li><i class="fas fa-paint-brush"></i> Photoshop</li>
+                        <li><i class="fas fa-music"></i> Illustrator</li>
+                    </ul>
+                </div>
+                <div class="artist-statement">
+                    <h3>Artist Statement</h3>
+                    <p>Rorschach is an experimental animation using fluid dynamics to create evolving inkblot patterns inspired by the psychological test. The animation transitions through symmetrical forms that morph organically, challenging viewers to interpret what they see.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Project 13 Popup -->
+    <div class="portfolio-popup" id="popup-project13">
+        <div class="popup-content">
+            <span class="popup-close"><i class="fas fa-times"></i></span>
+            <div class="popup-header">
+                <h2>Hollow Knight AR</h2>
+                <p class="project-date">Completed: February 2019</p>
+            </div>
+            <video controls width="100%">
+                <source src="Portfolio Work/arfilter.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="popup-details">
+                <div class="tools-used">
+                    <h3>Tools Used</h3>
+                    <ul>
+                        <li><i class="fas fa-vr-cardboard"></i> Spark AR</li>
+                        <li><i class="fas fa-cube"></i> Blender</li>
+                        <li><i class="fab fa-swift"></i> Pixen</li>
+                    </ul>
+                </div>
+                <div class="artist-statement">
+                    <h3>Artist Statement</h3>
+                    <p>Hollow Knight AR is a augmented reality filter I made for Instagram. It was inspired by the characters in the indie game Hollow Knight.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Project 14 Popup -->
+    <div class="portfolio-popup" id="popup-project14">
+        <div class="popup-content">
+            <span class="popup-close"><i class="fas fa-times"></i></span>
+            <div class="popup-header">
+                <h2>Boring</h2>
+                <p class="project-date">Completed: May 2018</p>
+            </div>
+            <div class="popup-gallery">
+                <div class="popup-gallery-main">
+                    <img src="Portfolio Work/Boring-01 copy.png" alt="Boolean Truth Table Main Image">
+                </div>
+                <div class="popup-gallery-thumbs">
+                    <img src="Portfolio Work/Boring-01 copy.png" class="active">
+                    <img src="Portfolio Work/Boring-02 copy.png">
+                </div>
+            </div>
+            <div class="popup-details">
+                <div class="tools-used">
+                    <h3>Tools Used</h3>
+                    <ul>
+                        <li><i class="fas fa-pen-nib"></i> Illustrator</li>
+                    </ul>
+                </div>
+                <div class="artist-statement">
+                    <h3>Artist Statement</h3>
+                    <p>These are my contribution from the artshow "Boring". The goal for the artists and designers was to make boring things interesting. My focus was on making visually pleasing but typically mundane office machines. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Project 15 Popup -->
+    <!--
+    <div class="portfolio-popup" id="popup-project15">
+        <div class="popup-content">
+            <span class="popup-close"><i class="fas fa-times"></i></span>
+            <div class="popup-header">
+                <h2>Botanica Magazine</h2>
+                <p class="project-date">Completed: October 2023</p>
+            </div>
+            <div class="popup-gallery">
+                <div class="popup-gallery-main">
+                    <img src="https://source.unsplash.com/random/800x600/?magazine" alt="Botanica Magazine Main Image">
+                </div>
+                <div class="popup-gallery-thumbs">
+                    <img src="https://source.unsplash.com/random/800x600/?magazine" alt="Botanica Magazine Thumbnail 1" class="active">
+                    <img src="https://source.unsplash.com/random/800x600/?plants" alt="Botanica Magazine Thumbnail 2">
+                    <img src="https://source.unsplash.com/random/800x600/?editorial" alt="Botanica Magazine Thumbnail 3">
+                </div>
+            </div>
+            <div class="popup-details">
+                <div class="tools-used">
+                    <h3>Tools Used</h3>
+                    <ul>
+                        <li><i class="fab fa-adobe"></i> InDesign</li>
+                    </ul>
+                </div>
+                <div class="artist-statement">
+                    <h3>Artist Statement</h3>
+                    <p>Botanica is a conceptual magazine exploring plants, design, and sustainable living with a grid-based system that maintains visual consistency. The project features a custom type hierarchy and palette inspired by botanical elements, with art direction of photography and thoughtful integration of text and image.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+    
+    <!-- Project 16 Popup -->
+    <div class="portfolio-popup" id="popup-project16">
+        <div class="popup-content">
+            <span class="popup-close"><i class="fas fa-times"></i></span>
+            <div class="popup-header">
+                <h2>About Nothing, Really</h2>
+                <p class="project-date">Completed: November 2024</p>
+            </div>
+            <div class="popup-pdf">
+                <iframe src="Portfolio Work/Crittenden_Jackson_Type 2_Assignment 3 copy.pdf" type="application/pdf" width="100%" height="600px"></iframe>
+                <div class="pdf-controls">
+                    <a href="Portfolio Work/Crittenden_Jackson_Type 2_Assignment 3 copy.pdf" download class="btn pdf-download"><i class="fas fa-download"></i> Download PDF</a>
+                    <p class="pdf-instructions">Use scroll or arrow keys to navigate through pages</p>
+                </div>
+            </div>
+            <div class="popup-details">
+                <div class="tools-used">
+                    <h3>Tools Used</h3>
+                    <ul>
+                        <li><i class="fas fa-paint-brush"></i> InDesign</li>
+                        <li><i class="fas fa-font"></i> Typography</li>
+                        <li><i class="fas fa-pen-nib"></i> Illustrator</li>
+                    </ul>
+                </div>
+                <div class="artist-statement">
+                    <h3>Artist Statement</h3>
+                    <p>This is some typographic layouts I used for a typography competition. I placed 2nd. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Project 17 Popup -->
+    <div class="portfolio-popup" id="popup-project17">
+        <div class="popup-content">
+            <span class="popup-close"><i class="fas fa-times"></i></span>
+            <div class="popup-header">
+                <h2>Cooper Family Type Specimen</h2>
+                <p class="project-date">Completed: September 2023</p>
+            </div>
+            <div class="popup-pdf">
+                <iframe src="Portfolio Work/OCADU-F22-307-TypeSpec-JCrittenden copy.PDF" type="application/pdf" width="100%" height="600px"></iframe>
+                <div class="pdf-controls">
+                    <a href="Portfolio Work/OCADU-F22-307-TypeSpec-JCrittenden copy.PDF" download class="btn pdf-download"><i class="fas fa-download"></i> Download PDF</a>
+                    <p class="pdf-instructions">Use scroll or arrow keys to navigate through pages</p>
+                </div>
+            </div>
+            <div class="popup-details">
+                <div class="tools-used">
+                    <h3>Tools Used</h3>
+                    <ul>
+                        <li><i class="fas fa-paint-brush"></i> InDesign</li>
+                        <li><i class="fas fa-pen-nib"></i> Illustrator</li>
+                        <li><i class="fas fa-font"></i> Typography</li>
+                    </ul>
+                </div>
+                <div class="artist-statement">
+                    <h3>Artist Statement</h3>
+                    <p>This is a type specimen I made for fun. It's based on my favorite font family, Cooper. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
