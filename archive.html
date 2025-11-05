@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - My Portfolio</title>
+    <title>Archive - My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -22,8 +22,8 @@
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
-                <li><a href="portfolio.html" class="active">Portfolio</a></li>
-                <li><a href="archive.html">Archive</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="archive.html" class="active">Archive</a></li>
                 <li><a href="resume.html">Resume</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -31,10 +31,19 @@
     </header>
 
     <main>
-        <!-- Portfolio Section -->
-        <section id="portfolio" class="section active">
+        <!-- Archive Section -->
+        <section id="archive" class="section active">
             <div class="container">
-                <h2 class="section-title">Portfolio</h2>
+                <h2 class="section-title">Archive</h2>
+                <div class="portfolio-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="videogames">Videogames</button>
+                    <button class="filter-btn" data-filter="websites">Websites</button>
+                    <button class="filter-btn" data-filter="graphic-design">Graphic Design</button>
+                    <button class="filter-btn" data-filter="animation">Animation</button>
+                    <button class="filter-btn" data-filter="ar">Augmented Reality</button>
+                    <button class="filter-btn" data-filter="interactive">Interactive Media</button>
+                </div>
                 <div class="portfolio-grid">
                     <div class="portfolio-item" data-category="videogames" data-id="project1">
                         <div class="portfolio-img">
@@ -748,3 +757,4 @@
     </div>
 </body>
 </html>
+
