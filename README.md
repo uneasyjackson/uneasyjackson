@@ -6,7 +6,7 @@ A modern, responsive portfolio website built with HTML, CSS, and JavaScript.
 
 - Responsive design that works on all devices
 - Multi-page website with separate HTML files for each section
-- 5 pages: Home, About Me, Portfolio, Resume, and Contact
+- 5 pages: Home, About, Portfolio, Resume, and Contact
 - Interactive portfolio filtering
 - Animated typing effect
 - Mobile-friendly navigation with hamburger menu
@@ -17,7 +17,7 @@ A modern, responsive portfolio website built with HTML, CSS, and JavaScript.
 ## Pages
 
 1. **Home** - An engaging landing page with a hero section and call-to-action
-2. **About Me** - Professional information and skill highlights
+2. **About** - Professional information and skill highlights
 3. **Portfolio** - Showcasing projects with filtering options
 4. **Resume** - Education and work experience timeline
 5. **Contact** - Contact information and form for inquiries
@@ -25,7 +25,7 @@ A modern, responsive portfolio website built with HTML, CSS, and JavaScript.
 ## File Structure
 
 - `index.html` - Home page
-- `about.html` - About Me page
+- `about.html` - About page
 - `portfolio.html` - Portfolio page
 - `resume.html` - Resume page
 - `contact.html` - Contact page
