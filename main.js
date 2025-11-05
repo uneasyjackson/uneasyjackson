@@ -22,7 +22,7 @@ const nextButton = document.querySelector('.carousel-button.next');
 const carouselDots = document.querySelector('.carousel-dots');
 
 // Typing effect words
-const words = ["Web Designer", "Game Designer", "Typographer", "Technical Artist", "Creative Coder"];
+const words = ["Game Developer", "Technical Artist", "Programmer", "Project Manager", "Scrum Master", "Web Designer", "Graphic Designer", "Team Organizer", "Game Designer"];
 
 // Navigation Toggle
 hamburger.addEventListener('click', () => {
