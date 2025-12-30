@@ -959,6 +959,23 @@ header .container {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+.popup-game-embed {
+    margin-bottom: 20px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.popup-game-embed iframe {
+    width: 100%;
+    max-width: 960px;
+    height: 600px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
 .popup-pdf {
     margin-bottom: 20px;
     width: 100%;
@@ -1072,6 +1089,12 @@ header .container {
         width: 100%;
         max-width: 100%;
         height: 175px;
+    }
+    
+    .popup-game-embed iframe {
+        width: 100%;
+        max-width: 100%;
+        height: 400px;
     }
 }
 
